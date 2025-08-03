@@ -163,8 +163,10 @@ cd FlashcardsRe
 pnpm install
 
 # Set up environment variables
-cp .env.example .env.local
-# Edit .env.local with your Supabase credentials
+cp .env.example .env
+# Edit .env with your Supabase credentials:
+# VITE_SUPABASE_URL=your_supabase_url
+# VITE_SUPABASE_ANON_KEY=your_anon_key
 
 # Start development server
 pnpm dev

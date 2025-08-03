@@ -1,0 +1,327 @@
+{
+  "appName": "NeuroCards",
+  "header": {
+    "dashboard": "Dashboard",
+    "study": "Study",
+    "myDecks": "Decks",
+    "myCards": "Cards",
+    "howItWorks": "How It Works",
+    "addCard": "Add Card"
+  },
+  "landingPage": {
+    "login": "Login",
+    "logout": "Logout",
+    "getStarted": "Get Started Free",
+    "heroTitle": "Master Anything with <1>Intelligent Flashcards</1>.",
+    "heroSubtitle": "Harness the power of spaced repetition and AI to learn faster and remember longer. Your personal knowledge base, supercharged.",
+    "startLearning": "Start Learning Now",
+    "createFirstCard": "Create Your First Card",
+    "noCreditCard": "No credit card required.",
+    "loggedInPromptTitle": "Welcome back! Ready to jump in?",
+    "loggedInPromptSubtitle": "Your next study session is waiting. Pick up where you left off or create some new cards.",
+    "quickCreateCard": "Quick Create Card",
+    "startStudying": "Start Studying",
+    "featuresTitle": "Why NeuroCards?",
+    "featuresSubtitle": "We've built the tools you need to optimize your learning and conquer any subject.",
+    "features": {
+      "adaptiveLearning": {
+        "title": "Adaptive Learning",
+        "description": "Our spaced repetition algorithm learns your memory patterns and shows you cards at the perfect time to maximize retention."
+      },
+      "memoryHeatmap": {
+        "title": "Memory Heatmap",
+        "description": "Visualize your study consistency and progress over time. Stay motivated by seeing your knowledge grow day by day."
+      },
+      "aiGenerator": {
+        "title": "AI Card Generator",
+        "description": "Turn any topic, document, or URL into a comprehensive deck of flashcards in seconds. Let AI do the heavy lifting."
+      },
+      "richInputs": {
+        "title": "Rich Inputs",
+        "description": "Go beyond text. Add images, code blocks, and mathematical formulas to your cards for a richer learning experience."
+      },
+      "collaboration": {
+        "title": "Collaboration",
+        "description": "Share your decks with friends, classmates, or the world. Learn together and benefit from community-created content."
+      },
+      "smartRecall": {
+        "title": "Smart Recall",
+        "description": "Our system intelligently tracks your recall strength for each card, ensuring you focus on what you need to learn most."
+      }
+    },
+    "footer": "© {{year}} NeuroCards. All rights reserved."
+  },
+  "dashboard": {
+    "welcome": "Welcome Back!",
+    "description": "Here's a snapshot of your learning journey. Ready to dive in?",
+    "totalCards": "Total Cards",
+    "dueForReview": "Due for Review",
+    "studyAccuracy": "Study Accuracy",
+    "matureCards": "Mature Cards",
+    "newCardsCount": "{{count}} new",
+    "overdueCount": "{{count}} overdue",
+    "readyToStudy": "Ready to study",
+    "overallPerformance": "Overall performance",
+    "learningCount": "{{count}} learning",
+    "studyProgress": "Study Progress",
+    "studyProgressDescription": "Track your progress from new cards to mastered knowledge.",
+    "cardsStudied": "Cards Studied",
+    "mature": "Mature",
+    "learning": "Learning",
+    "new": "New",
+    "spacedRepetitionStats": "Spaced Repetition Stats",
+    "learningAlgorithmPerformance": "A look at how the learning algorithm is working for you.",
+    "overallAccuracy": "Overall Accuracy",
+    "dueToday": "Due Today",
+    "studyDays": "Study Days",
+    "createCardNow": "Create Card Now",
+    "createDeck": "Create New Deck",
+    "advancedCreator": "Advanced Creator",
+    "quickCreateTitle": "Quick Start",
+    "quickCreateDescription": "Don't break your flow. Quickly create a new card or deck and get back to studying.",
+    "cardsOverdue": "Action Required: Cards Overdue!",
+    "cardsReadyForReview": "Cards Ready for Review!",
+    "overdueDescription": "You have {{overdue}} overdue cards and {{ready}} more ready for review. Catch up to stay on track!",
+    "readyDescription": "You have {{count}} cards ready for review. A quick session will help reinforce your memory.",
+    "startStudyingNow": "Start Studying Now"
+  },
+  "toasts": {
+    "cardCreated": "Card created successfully!",
+    "deckCreated": "Deck created successfully!",
+    "cardDeleted": "Card deleted successfully.",
+    "deckDeleted": "Deck deleted successfully.",
+    "cardProgressReset": "Card progress has been reset."
+  },
+  "quickCardDialog": {
+    "title": "Quick Create Card",
+    "description": "Quickly add a new card to your collection. You can add more details later.",
+    "frontLabel": "Front (Question)",
+    "frontPlaceholder": "e.g., What is the capital of Japan?",
+    "backLabel": "Back (Answer)",
+    "backPlaceholder": "e.g., Tokyo",
+    "cancelButton": "Cancel",
+    "submitButton": "Create Card",
+    "submittingButton": "Creating..."
+  },
+  "cardDialog": {
+    "title": "Create New Card",
+    "description": "Add a new flashcard with all the details. Fill out the front and back, and optionally add it to a deck.",
+    "frontLabel": "Front (Question)",
+    "frontPlaceholder": "e.g., What is the powerhouse of the cell?",
+    "backLabel": "Back (Answer)",
+    "backPlaceholder": "e.g., Mitochondria",
+    "deckLabel": "Deck",
+    "deckPlaceholder": "Select a deck (optional)",
+    "difficultyLabel": "Difficulty",
+    "topicLabel": "Topic",
+    "topicPlaceholder": "e.g., Biology, History",
+    "tagsLabel": "Tags",
+    "newTagPlaceholder": "Add a new tag...",
+    "addTagButton": "Add",
+    "cancelButton": "Cancel",
+    "submitButton": "Create Card",
+    "submittingButton": "Creating...",
+    "trigger": "Create Card",
+    "noDeck": "No Deck"
+  },
+  "deckDialog": {
+    "title": "Create New Deck",
+    "description": "Create a new deck to organize your flashcards. Give it a title and choose a color.",
+    "form": {
+      "title": "Title",
+      "titlePlaceholder": "e.g., Japanese Vocabulary, Organic Chemistry",
+      "description": "Description (optional)",
+      "descriptionPlaceholder": "A brief summary of what's in this deck.",
+      "color": "Color",
+      "cancel": "Cancel",
+      "submit": "Create Deck",
+      "submitting": "Creating..."
+    }
+  },
+  "floatingCreateButton": {
+    "quickCard": "Quick Card",
+    "detailedCard": "Detailed Card",
+    "newDeck": "New Deck"
+  },
+  "decksPage": {
+    "title": "My Decks",
+    "description": "Organize your knowledge. Each deck is a collection of your flashcards.",
+    "cards": "{{count}} cards",
+    "viewDetails": "View / Edit",
+    "delete": "Delete",
+    "emptyTitle": "Your study space is looking a bit empty!",
+    "emptyDescription": "Decks are how you group your cards by subject, topic, or anything you like. Create your first deck to get started."
+  },
+  "cardsPage": {
+    "title": "My Cards",
+    "description": "Browse, manage, and organize all of your flashcards in one place.",
+    "searchPlaceholder": "Search cards by front, back, or topic...",
+    "filterByDeck": "Filter by deck",
+    "allDecks": "All Decks",
+    "filterByTopic": "Filter by topic",
+    "allTopics": "All Topics",
+    "noGrouping": "No Grouping",
+    "groupByDeck": "Group by Deck",
+    "groupByTopic": "Group by Topic",
+    "groupByTags": "Group by Tags",
+    "allCards": "All Cards",
+    "ungrouped": "Ungrouped",
+    "noTags": "No Tags",
+    "viewDetails": "View / Edit",
+    "delete": "Delete",
+    "emptyTitle": "No cards yet!",
+    "emptyDescription": "This is where all your flashcards will live. Create your first one to begin your learning journey.",
+    "emptyFilteredTitle": "No cards match your filters.",
+    "emptyFilteredDescription": "Try adjusting your search or filter criteria to find what you're looking for."
+  },
+  "deckDetailsPage": {
+    "notFound": "Deck Not Found",
+    "backToDecks": "Back to Decks",
+    "studyDeck": "Study this Deck",
+    "editDeck": "Edit Deck",
+    "deleteDeck": "Delete Deck",
+    "stats": {
+      "totalCards": "Total Cards",
+      "studied": "Studied",
+      "avgAccuracy": "Avg. Accuracy",
+      "avgDifficulty": "Avg. Difficulty"
+    },
+    "cardsTitle": "Cards in this Deck",
+    "searchPlaceholder": "Search cards in this deck...",
+    "sortByCreated": "Sort by: Newest",
+    "sortByDifficulty": "Sort by: Difficulty",
+    "sortByTopic": "Sort by: Topic",
+    "emptyDeckTitle": "This deck is empty.",
+    "emptyDeckDescription": "Add some cards to this deck to start studying.",
+    "emptySearchTitle": "No cards found.",
+    "emptySearchDescription": "No cards in this deck match your search term.",
+    "reviews": "{{count}} reviews",
+    "accuracy": "{{rate}}% accuracy"
+  },
+  "cardDetailsPage": {
+    "notFound": "Card Not Found",
+    "backToCards": "Back to Cards",
+    "title": "Card Details",
+    "description": "Review and manage this specific card.",
+    "resetProgress": "Reset Progress",
+    "edit": "Edit",
+    "delete": "Delete",
+    "previewTitle": "Card Preview",
+    "showQuestion": "Show Question",
+    "showAnswer": "Show Answer",
+    "questionLabel": "Question",
+    "frontSideLabel": "Front Side (Question)",
+    "answerLabel": "Answer",
+    "backSideLabel": "Back Side (Answer)",
+    "revealPrompt": "Click 'Show Answer' to reveal.",
+    "statsTitle": "Study Statistics",
+    "totalReviews": "Total Reviews",
+    "correctAnswers": "Correct",
+    "accuracyRate": "Accuracy",
+    "lastReviewed": "Last reviewed on {{date}} at {{time}}",
+    "propertiesTitle": "Properties",
+    "difficulty": "Difficulty",
+    "topic": "Topic",
+    "deck": "Deck",
+    "tags": "Tags",
+    "created": "Created",
+    "lastUpdated": "Last Updated",
+    "quickActionsTitle": "Quick Actions",
+    "studyThisCard": "Study This Card",
+    "editCard": "Edit This Card",
+    "viewDeck": "View Deck"
+  },
+  "studyPage": {
+    "title": "Study Session",
+    "description": "Choose your study mode and let the learning begin.",
+    "configTitle": "Study Configuration",
+    "configDescDue": "Focus on cards that are currently due for review based on the spaced repetition schedule.",
+    "configDescAll": "Review all cards in your collection, regardless of their schedule. Good for a comprehensive refresh.",
+    "configDescDeck": "Concentrate on a specific deck. Choose the deck you want to study from the dropdown below.",
+    "configDescTopic": "Narrow your focus to a specific topic across all decks.",
+    "configDescDifficulty": "Challenge yourself by studying cards of a certain difficulty level.",
+    "selectDeck": "Select a deck",
+    "selectTopic": "Select a topic",
+    "selectDifficulty": "Select difficulty",
+    "cardsAvailable": "{{count}} cards available",
+    "startSession": "Start Session",
+    "noCardsTitle": "Ready to Learn?",
+    "noCardsDescription": "You don't have any cards to study yet. Create your first flashcard to get started!",
+    "createFirstCard": "Create Your First Card",
+    "modes": {
+      "due": "Due Cards",
+      "dueDesc": "Spaced Repetition",
+      "all": "All Cards",
+      "allDesc": "Comprehensive Review",
+      "deck": "By Deck",
+      "deckDesc": "Focused Topic",
+      "topic": "By Topic",
+      "topicDesc": "Specific Subject",
+      "difficulty": "By Difficulty",
+      "difficultyDesc": "Targeted Challenge"
+    },
+    "stats": {
+      "total": "Total",
+      "due": "Due",
+      "new": "New",
+      "learning": "Learning",
+      "mature": "Mature",
+      "overdue": "Overdue"
+    }
+  },
+  "studySession": {
+    "cardOf": "Card {{current}} of {{total}}",
+    "accuracy": "Accuracy",
+    "reset": "Reset",
+    "question": "Question",
+    "answer": "Answer",
+    "hideAnswer": "Hide Answer",
+    "showAnswer": "Show Answer",
+    "revealPrompt": "Try to recall the answer, then click to reveal.",
+    "rateRecall": "How well did you recall the answer?",
+    "again": "Again",
+    "hard": "Hard",
+    "good": "Good",
+    "easy": "Easy",
+    "days": "d",
+    "sessionFinished": "Study session complete!",
+    "noCardsTitle": "All Done!",
+    "noCardsDescription": "You've finished all the cards for this session. Great work!",
+    "reviews": "Reviews",
+    "interval": "Interval",
+    "easeFactor": "Ease",
+    "nextReview": "Next",
+    "days_one": "{{count}} day",
+    "days_other": "{{count}} days"
+  },
+  "howItWorksPage": {
+    "mainTitle": "How NeuroCards Works",
+    "mainSubtitle": "Understanding the science behind effective learning.",
+    "whatIsSR": {
+      "title": "What is Spaced Repetition?",
+      "content": "Spaced Repetition is a learning technique that involves reviewing information at increasing intervals. When you first learn something, you review it frequently. As you remember it better, the time between reviews gets longer. This process interrupts the natural forgetting curve, moving information from your short-term to your long-term memory much more efficiently than traditional studying."
+    },
+    "learningProcess": {
+      "title": "The NeuroCards Learning Process",
+      "content": "Our app uses a sophisticated algorithm (a modified version of SM-2) to manage this process for you. Every time you review a card, you rate how well you knew the answer ('Again', 'Hard', 'Good', 'Easy').\n\n- **Good/Easy:** You remembered it well. We'll show you this card again further in the future.\n- **Hard:** You struggled but got it. We'll show it to you again soon, but not as soon as a failed attempt.\n- **Again:** You forgot. The card's interval is reset, and you'll see it very soon to re-learn it."
+    },
+    "yourSession": {
+      "title": "Your Study Session",
+      "content": "When you start a 'Due Cards' study session, NeuroCards automatically gathers all the cards that are scheduled for review today (or are overdue). This ensures you're always focusing on the information that's at the highest risk of being forgotten, making your study time incredibly effective."
+    },
+    "gettingStarted": {
+      "title": "How to Get the Most Out of It",
+      "content": "1. **Create Cards:** Make your own cards or use the AI generator. Be concise but clear.\n2. **Study Consistently:** Try to clear your 'Due Cards' queue every day. Even 5-10 minutes makes a huge difference.\n3. **Be Honest:** Rate your recall honestly. The algorithm works best when it has accurate data about your memory.\n4. **Trust the Process:** Don't worry about which cards to study. Just hit 'Study' and let the algorithm guide you."
+    },
+    "readyTitle": "Ready to Supercharge Your Learning?",
+    "readySubtitle": "Jump into a study session or start building your knowledge base."
+  },
+  "editDeckDialog": {
+    "title": "Edit Deck",
+    "description": "Update the details of your deck here. Click save when you're done."
+  },
+  "editCardDialog": {
+    "title": "Edit Card",
+    "description": "Update the details of your flashcard here. Click save when you're done."
+  }
+}

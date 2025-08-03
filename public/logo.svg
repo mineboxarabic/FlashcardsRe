@@ -1,0 +1,27 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Brain/Neural network inspired logo -->
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B5CF6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#06B6D4;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Card base -->
+  <rect x="4" y="8" width="24" height="16" rx="3" fill="url(#logoGradient)" opacity="0.2"/>
+  <rect x="4" y="8" width="24" height="16" rx="3" stroke="url(#logoGradient)" stroke-width="2" fill="none"/>
+  
+  <!-- Neural connections -->
+  <circle cx="10" cy="14" r="2" fill="url(#logoGradient)"/>
+  <circle cx="16" cy="12" r="2" fill="url(#logoGradient)"/>
+  <circle cx="22" cy="18" r="2" fill="url(#logoGradient)"/>
+  <circle cx="16" cy="20" r="1.5" fill="url(#logoGradient)" opacity="0.7"/>
+  
+  <!-- Connection lines -->
+  <line x1="12" y1="14" x2="14" y2="12" stroke="url(#logoGradient)" stroke-width="1.5" opacity="0.6"/>
+  <line x1="18" y1="12" x2="20" y2="18" stroke="url(#logoGradient)" stroke-width="1.5" opacity="0.6"/>
+  <line x1="16" y1="14" x2="16" y2="18.5" stroke="url(#logoGradient)" stroke-width="1.5" opacity="0.6"/>
+  
+  <!-- Top accent -->
+  <path d="M12 4 L16 2 L20 4" stroke="url(#logoGradient)" stroke-width="2" fill="none" stroke-linecap="round"/>
+</svg>

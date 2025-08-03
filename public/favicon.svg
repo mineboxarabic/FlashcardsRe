@@ -1,0 +1,25 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Simplified version for favicon -->
+  <defs>
+    <linearGradient id="faviconGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B5CF6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#06B6D4;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Card base -->
+  <rect x="2" y="4" width="12" height="8" rx="1.5" fill="url(#faviconGradient)" opacity="0.3"/>
+  <rect x="2" y="4" width="12" height="8" rx="1.5" stroke="url(#faviconGradient)" stroke-width="1" fill="none"/>
+  
+  <!-- Neural nodes -->
+  <circle cx="5" cy="7" r="1" fill="url(#faviconGradient)"/>
+  <circle cx="8" cy="6" r="1" fill="url(#faviconGradient)"/>
+  <circle cx="11" cy="9" r="1" fill="url(#faviconGradient)"/>
+  
+  <!-- Connection lines -->
+  <line x1="6" y1="7" x2="7" y2="6" stroke="url(#faviconGradient)" stroke-width="0.5" opacity="0.7"/>
+  <line x1="9" y1="6" x2="10" y2="9" stroke="url(#faviconGradient)" stroke-width="0.5" opacity="0.7"/>
+  
+  <!-- Top accent -->
+  <path d="M6 2 L8 1 L10 2" stroke="url(#faviconGradient)" stroke-width="1" fill="none" stroke-linecap="round"/>
+</svg>

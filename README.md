@@ -164,9 +164,11 @@ pnpm install
 
 # Set up environment variables
 cp .env.example .env
-# Edit .env with your Supabase credentials:
+# Edit .env with your Supabase and API credentials:
 # VITE_SUPABASE_URL=your_supabase_url
 # VITE_SUPABASE_ANON_KEY=your_anon_key
+# OPENAI_API_KEY=your_openai_api_key
+# YOUTUBE_API_KEY=your_youtube_api_key # optional, for YouTube text extraction
 
 # Start development server
 pnpm dev
